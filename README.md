@@ -1,7 +1,7 @@
 Alcotest-js Examples
 --------------------
 
-This repository is a partner to [this draft PR]() showing some more "real-world" examples (and also providing an easy way for anyone to set this up and test it).
+This repository is a partner to [this draft PR](https://github.com/mirage/alcotest/pull/323) showing some more "real-world" examples (and also providing an easy way for anyone to set this up and test it).
 
 Tl;dr [Alcotest live in your browser](https://patricoferris.github.io/alcotest-js-example/)!
 
