@@ -1,0 +1,22 @@
+(executable
+ (name test)
+ (modes js)
+ (js_of_ocaml
+  (javascript_files require.js))
+ (libraries common js_of_ocaml alcotest-js.node))
+
+(rule
+ (alias nodetest)
+ (deps test.bc.js)
+ (target test.js)
+ (action
+  (progn
+   (run
+    npx
+    esbuild
+    --bundle
+    %{deps}
+    --platform=node
+    --log-level=silent
+    --outfile=%{target})
+   (run node %{target}))))

@@ -1,0 +1,4 @@
+(executable
+ (name test)
+ (modes js)
+ (libraries common js_of_ocaml alcotest-js.browser))

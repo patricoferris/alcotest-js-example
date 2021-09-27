@@ -1,0 +1,7 @@
+[submodule "alcotest"]
+	path = alcotest
+	url = https://github.com/patricoferris/alcotest.git
+	branch = js-backends
+[submodule "jsoo-yaml"]
+	path = jsoo-yaml
+	url = https://github.com/patricoferris/jsoo-yaml

@@ -1,0 +1,1 @@
+joo_global_object.__JS__search = require("js-search")

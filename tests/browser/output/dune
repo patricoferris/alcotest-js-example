@@ -1,0 +1,9 @@
+(rule
+ (alias browsertest)
+ (deps ../test.bc.js)
+ (target ./test.js)
+ (mode
+  (promote-into .))
+ (action
+  (progn
+   (copy %{deps} %{target}))))

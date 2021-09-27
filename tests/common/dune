@@ -1,0 +1,3 @@
+(library
+ (name common)
+ (libraries alcotest-js js_of_ocaml))
